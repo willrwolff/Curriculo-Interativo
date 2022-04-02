@@ -1,0 +1,109 @@
+a {
+    text-decoration: none;
+    font-size: 10px;
+    color: rgb(56, 26, 31);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+}
+
+h3 {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin: 7px;
+    padding: 0%;
+    border: 0ch;   
+}
+
+.cor-titulo {
+    color: rgb(170, 120, 39);
+}
+
+.container {
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container-horizontal {
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.navegação {
+    width: 250px;
+    height: 630px;
+    background-color: rgb(170, 120, 39);
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    flex-direction: column;
+}
+
+.conteúdo {
+    margin: 20px;
+    padding: 1px;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#foto-perfil {
+    width: 190px;
+    height: 190px;
+    border-radius: 100%;
+    image-rendering: auto;
+    border: 7px;
+    border-style: double;
+    border-color: rgba(56, 26, 31, 0.753);
+    margin: 15px;
+}
+
+.páginas :hover {
+    color: white;
+}
+
+.icones {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    background: transparent;
+    margin: 15px;
+}
+
+.lista-conhecimentos {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    margin: 20px;
+}
+
+.lista-objetivos {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 20px;
+    
+}
